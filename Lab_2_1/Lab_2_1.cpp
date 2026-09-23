@@ -14,12 +14,12 @@ int main()
     cout << "alpha = ";
     cin >> alpha;
 
-    z1 = 1 + cos(2 * alpha) + sin(2 * alpha);
-   // z2 = 2 * sqrt(2) * cos(alpha) * sin(Pi / 4 + alpha);
+   // z1 = 1 + cos(2 * alpha) + sin(2 * alpha);
+    z2 = 2 * sqrt(2) * cos(alpha) * sin(Pi / 4 + alpha);
 
     cout << endl;
-    cout << "z1 = " << z1 << endl;
-   // cout << "z2 = " << z2 << endl;
+   // cout << "z1 = " << z1 << endl;
+    cout << "z2 = " << z2 << endl;
 
     cin.get();
     cin.get();
